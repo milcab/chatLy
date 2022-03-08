@@ -1,7 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import SignIn from "./SignIn";
-import Logo from "../public/logo.jpg";
 
 export default function Home() {
   return (
@@ -19,7 +18,7 @@ export default function Home() {
           <SignIn />
 
           <p className={styles.description}>
-            a chat application that allows users to join a chat room something
+            A chat application that allows users to join a chat room something
             like slack. we can create chat rooms and share URLs.
           </p>
           
