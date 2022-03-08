@@ -1,6 +1,7 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import SignIn from "./SignIn";
+import Logo from "../public/logo.jpg";
 
 export default function Home() {
   return (
@@ -12,24 +13,24 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to Chatly
-        </h1>
+        <div>
+          <h1 className={styles.title}>Welcome to MERN Chat!</h1>
 
-        <p className={styles.description}>
-          a chat application that allows users to join a chat room something like slack. we can create chat rooms and share URLs. Each user should provide us with an email and name to join a chat.
+          <SignIn />
 
-        </p>
+          <p className={styles.description}>
+            a chat application that allows users to join a chat room something
+            like slack. we can create chat rooms and share URLs.
+          </p>
+          
+        </div>
       </main>
 
       <footer className={styles.footer}>
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a target="_blank" rel="noopener noreferrer">
           By The hottest Dev Team
         </a>
       </footer>
     </div>
-  )
+  );
 }

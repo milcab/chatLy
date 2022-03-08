@@ -12,6 +12,11 @@
   align-items: center;
 }
 
+.SignIn {
+  text-align: center;
+
+}
+
 .footer {
   display: flex;
   flex: 1;
