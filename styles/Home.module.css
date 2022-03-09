@@ -12,11 +12,6 @@
   align-items: center;
 }
 
-.SignIn {
-  text-align: center;
-
-}
-
 .footer {
   display: flex;
   flex: 1;
@@ -118,4 +113,12 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.SignIn {
+  text-align: center;
+}
+
+.BoldText {
+  font-weight: bolder;
 }
